@@ -11,7 +11,7 @@ import setupSocket from "./socket/index.js";
 import { clerkMiddleware } from "@clerk/express";
 
 import clerkWebHookRouter from "./routes/clerkWebHookRouter.js";
-import questionRoute from "./routes/questionRoute.js";
+// import questionRoute from "./routes/questionRoute.js";
 // import userRoute from "./routes/userRoute.js";
 import userRoute from "./routes/userRoute.js";
 import matchRoute from "./routes/matchRoute.js"
@@ -45,7 +45,7 @@ app.use("/api/v1", clerkWebHookRouter);
 
 app.use(express.json());
 
-app.use("/api/v1/question", questionRoute);
+// app.use("/api/v1/question", questionRoute);
 app.use("/api/v1/user", userRoute);
 app.use("/api/v1/match",matchRoute)
 
