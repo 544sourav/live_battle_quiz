@@ -26,7 +26,7 @@ export const Header = ({
         <div className="flex items-center gap-3">
           <IoFlashSharp size={30} className="text-primary" />
           <div>
-            <h1 className="text-lg font-semibold text-white">MathArena</h1>
+            <h1 className="text-lg font-semibold text-white">QuizArena</h1>
             <p className="text-sm text-gray-400">Live match arena</p>
           </div>
         </div>

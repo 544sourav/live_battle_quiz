@@ -44,7 +44,7 @@ export const Sidebar = () => {
           <div className="flex items-center gap-x-3">
             <IoFlashSharp size={30} className="text-primary" />
             <h1 className="text-white font-semibold text-xl md:block">
-              MathArena
+              QuizArena
             </h1>
           </div>
 
