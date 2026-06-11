@@ -2,8 +2,6 @@
 // get match by id
 //get match history of user by user id
 // submit match result
-
-import { TbPlayerSkipBack } from 'react-icons/tb';
 import Match from '../models/Match.js';
 
 export const getMatchById = async (req, res) => {
