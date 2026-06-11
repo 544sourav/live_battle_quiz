@@ -1,0 +1,22 @@
+{
+    "questionsAttempted": [],
+    "role": "user",
+    "_id": "6a1824a5a466976ce3d08698",
+    "clerkId": "user_3ELoJbk9kpaT71CNIzjXxM4D6Ng",
+    "userName": "buddysofficial9797",
+    "email": "buddysofficial9797@gmail.com",
+    "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18zRUxvSllWd3VBa1VIZUI1WW54VmpMWlVoNzQifQ",
+    "wins": 0,
+    "losses": 0,
+    "rating": 800,
+    "matchesPlayed": 0,
+    "weakTopics": [],
+    "strongTopics": [],
+    "averageAccuracy": 0,
+    "averageResponseTime": 0,
+    "isOnline": false,
+    "currentRoom": null,
+    "createdAt": "2026-05-28T11:19:01.189Z",
+    "updatedAt": "2026-05-28T11:19:01.189Z",
+    "__v": 0
+}
