@@ -27,7 +27,7 @@ app.use(cookieParser());
 
 app.use(
   cors({
-    origin: "*",
+    origin: ["http://localhost:5173", "https://live-battle-quiz.vercel.app"],
     credentials: true,
   }),
 );
@@ -53,11 +53,10 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: "*",
+    origin: ["http://localhost:5173", "https://live-battle-quiz.vercel.app"],
     credentials: true,
   },
 });
-
 setupSocket(io);
 
 app.get("/", (req, res) => {
